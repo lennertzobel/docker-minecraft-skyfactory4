@@ -1,6 +1,4 @@
-FROM java:8
-
-MAINTAINER Tim Chaubet <tim@chaubet.be>
+FROM openjdk:8
 
 RUN apt-get install -y wget unzip && \
  addgroup --gid 1234 minecraft && \
